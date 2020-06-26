@@ -1,0 +1,9 @@
+{% if settings.date_picker %}
+  <div class="date__picker-container">
+    <p>
+      <label for="date">{{ settings.date_picker_label }}</label>
+      <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
+      <span>{{ settings.date_picker_instructions }}</span>
+    </p>
+  </div>
+{% endif %}
