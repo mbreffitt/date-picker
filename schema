@@ -1,0 +1,107 @@
+{
+  "type": "header",
+  "content": {
+    "en": "Date picker",
+    "fr": "Sélecteur de date"
+  }
+},
+{
+  "type": "checkbox",
+  "id": "date_picker",
+  "label": {
+    "en": "Show date picker",
+    "fr": "Afficher le sélecteur de date"
+  },
+  "default": false,
+  "info": {
+    "en": "Only for use on cart page.",
+    "fr": "À utiliser uniquement sur la page du panier."
+  }
+},
+{
+  "type": "text",
+  "id": "date_picker_label",
+  "label": {
+    "en": "Label",
+    "fr": "Étiquette"
+  },
+  "default": {
+    "en": "Pick a delivery date:",
+    "fr": "Choisissez une date de livraison:"
+  }
+},
+{
+  "type": "text",
+  "id": "date_picker_instructions",
+  "label": {
+    "en": "Instructions/message",
+    "fr": "Instructions/message"
+  },
+  "default": {
+    "en": "We do not deliver on Sunday.",
+    "fr": "Nous ne livrons pas le dimanche."
+  }
+},
+{
+  "type": "checkbox",
+  "id": "day_0",
+  "label": {
+    "en": "Sunday",
+    "fr": "Dimanche"
+  },
+  "default": false
+},
+{
+  "type": "checkbox",
+  "id": "day_1",
+  "label": {
+    "en": "Monday",
+    "fr": "Lundi"
+  },
+  "default": true
+},
+{
+  "type": "checkbox",
+  "id": "day_2",
+  "label": {
+    "en": "Tuesday",
+    "fr": "Mardi"
+  },
+  "default": true
+},
+{
+  "type": "checkbox",
+  "id": "day_3",
+  "label": {
+    "en": "Wednesday",
+    "fr": "Mercredi"
+  },
+  "default": true
+},
+{
+  "type": "checkbox",
+  "id": "day_4",
+  "label": {
+    "en": "Thursday",
+    "fr": "Jeudi"
+  },
+  "default": true
+},
+{
+  "type": "checkbox",
+  "id": "day_5",
+  "label": {
+    "en": "Friday",
+    "fr": "Vendredi"
+  },
+  "default": true
+},
+{
+  "type": "checkbox",
+  "id": "day_6",
+  "label": {
+    "en": "Saturday",
+    "fr": "Samedi"
+  },
+  "default": true
+}
